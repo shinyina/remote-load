@@ -1,0 +1,15 @@
+{
+  "name": "remote-load",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"cd packages/custom-component && pnpm build",
+    "component:dev":"cd packages/custom-component && pnpm dev",
+    "main:dev":"cd packages/main && pnpm dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
